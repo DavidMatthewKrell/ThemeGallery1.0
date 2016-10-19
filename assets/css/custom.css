@@ -2,29 +2,38 @@
 body {
 	font-family: Source Sans Pro, helvetica;
 	letter-spacing: 1px;
+	background-image: :;
+	margin: 0 auto;
+
 }
 
-.topmessage {
-	  background: #f2f2f2; /* For browsers that do not support gradients */
-  	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
-	background: -moz-linear-gradient(top,  rgba(0,0,0,0.45) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.45) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom,  rgba(0,0,0,0.45) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
-	position: absolute;
-      top: 0;
-      left: 0;
-      min-width: 100%;
-      height: 100px;
-}
 
-.topmessage h1 {
+.title h1 {
 	text-align: center;
 	font-weight: 200;
-	margin-top: 2%;
+	color: #666;
 	letter-spacing: 4px;
+	font-size: 3em;
+	text-transform: uppercase;
+	margin-top: 1%;
 }
 
 .mainsection {
-	margin-top: 10%;
+	
+	text-align: center;
+}
+
+.solo img {
+	max-width: 40%;
+	float: left;
+	margin: 0 auto;
+	padding: 5%;
+
+}
+
+.classic img {
+	max-width: 40%;
+	float: right;
+	margin: 0 auto;
+	padding: 5%;
 }
