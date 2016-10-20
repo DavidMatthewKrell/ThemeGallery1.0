@@ -3,6 +3,11 @@ body {
 	font-family: Source Sans Pro, helvetica;
 	letter-spacing: 1px;
 	margin: 0 auto;
+	background-image: url('../img/FreemiumBg.png');
+	background-repeat: none;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 
@@ -22,6 +27,16 @@ body {
 	padding-bottom: 10%;
 }
 
+.classic h4 {
+	margin-bottom: -4%;
+	font-weight: 600;
+}
+
+.solo h4 {
+	margin-bottom: -4%;
+	font-weight: 600;
+}
+
 .solo p {
 	padding-top: 5%;
 }
@@ -32,23 +47,24 @@ body {
 
 
 .solo img {
-	max-width: 90%;
+	max-width: 85%;
 	padding: 1%;
 
 }
 
 
 .classic img {
-	max-width: 90%;
+	max-width: 85%;
 	padding: 1%;
 }
 
 .btn {
 	border-radius: 0;
-	background-color: #fff;
+	background-color: transparent;
 	border: 2px solid #000;
 	padding-left: 10%;
 	padding-right: 10%;
+	margin-top: 5%;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 
