@@ -2,9 +2,7 @@
 body {
 	font-family: Source Sans Pro, helvetica;
 	letter-spacing: 1px;
-	background-image: :;
 	margin: 0 auto;
-
 }
 
 
@@ -15,25 +13,50 @@ body {
 	letter-spacing: 4px;
 	font-size: 3em;
 	text-transform: uppercase;
-	margin-top: 1%;
+	margin-top: 2%;
 }
 
-.mainsection {
-	
+.solo, .classic {
 	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 10%;
 }
+
+.solo p {
+	padding-top: 5%;
+}
+
+.classic p {
+	padding-top: 5%;
+}
+
 
 .solo img {
-	max-width: 40%;
-	float: left;
-	margin: 0 auto;
-	padding: 5%;
+	max-width: 90%;
+	padding: 1%;
 
 }
 
+
 .classic img {
-	max-width: 40%;
-	float: right;
-	margin: 0 auto;
-	padding: 5%;
+	max-width: 90%;
+	padding: 1%;
+}
+
+.btn {
+	border-radius: 0;
+	background-color: #fff;
+	border: 2px solid #000;
+	padding-left: 10%;
+	padding-right: 10%;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+
+}
+
+.btn-primary {
+	border-radius: 0;
+	background-color: #000;
+	border: 2px solid #000;
+	color: #fff;
 }
