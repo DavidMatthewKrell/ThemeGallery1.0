@@ -16,46 +16,40 @@ body {
 	font-weight: 200;
 	color: #666;
 	letter-spacing: 4px;
-	font-size: 3em;
+	font-size: 2em;
 	text-transform: uppercase;
-	margin-top: 2%;
+	margin-top: 1%;
 }
 
 .solo, .classic {
 	text-align: center;
-	padding-top: 5%;
-	padding-bottom: 10%;
+	padding-top: 2%;
+	padding-bottom: 5%;
 }
 
 .classic h4 {
-	margin-bottom: -1%;
+	margin-bottom: -2%;
 	font-weight: 600;
 }
 
 .solo h4 {
-	margin-bottom: -1%;
+	margin-bottom: -2%;
 	font-weight: 600;
-}
-
-.solo p {
-	padding-top: 5%;
-}
-
-.classic p {
-	padding-top: 5%;
 }
 
 
 .solo img {
-	max-width: 85%;
+	max-width: 80%;
 	padding: 1%;
+	margin-bottom: 5%;
 
 }
 
 
 .classic img {
-	max-width: 90%;
+	max-width: 80%;
 	padding: 1%;
+	margin-bottom: 5%;
 }
 
 .btn {
@@ -67,6 +61,7 @@ body {
 	margin-top: 5%;
 	letter-spacing: 2px;
 	text-transform: uppercase;
+	color: #000;
 
 }
 
@@ -75,4 +70,43 @@ body {
 	background-color: #000;
 	border: 2px solid #000;
 	color: #fff;
+}
+
+
+a:hover .btn  {
+  background-color: rgba(255, 255, 255, 0.2);
+  -webkit-transition: background-color 1000ms linear;
+    -moz-transition: background-color 1000ms linear;
+    -o-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+
+a:hover .btn-primary  {
+  background-color: #666;
+  -webkit-transition: background-color 1000ms linear;
+    -moz-transition: background-color 1000ms linear;
+    -o-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+    
+}
+.solo h3 {
+	margin-bottom: -3%;
+	margin-top: 7%;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.classic h3 {
+	margin-bottom: -3%;
+	margin-top: 7%;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.classic h6 {
+	padding-top: none;
+	font-style: italic;
+	font-weight: 200;
 }
