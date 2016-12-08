@@ -39,6 +39,18 @@ body {
 	font-size: 1.3em;
 }
 
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+
+		.highlight h4 {
+			margin-top:20%;
+			}
+
+		.default h4 {
+			margin-top:20%;
+			}
+}
+
 .highlight h5 {
 	font-size: 1.3em;
 	padding-bottom: 5%;
