@@ -28,13 +28,13 @@ body {
 }
 
 .highlight h4 {
-	margin-bottom: -2%;
+	margin-bottom: 1%;
 	font-weight: 600;
 	font-size: 1.3em;
 }
 
 .default h4 {
-	margin-bottom: -2%;
+	margin-bottom: 1%;
 	font-weight: 600;
 	font-size: 1.3em;
 }
@@ -67,6 +67,14 @@ body {
 
 }
 
+a {
+	color: #000;
+}
+
+a:hover {
+	color: #99ff99;
+	text-decoration: none;
+}
 
 .highlight img {
 	max-width: 95%;
