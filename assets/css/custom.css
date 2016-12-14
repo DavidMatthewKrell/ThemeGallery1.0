@@ -40,7 +40,7 @@ body {
 }
 
 /* Smartphones (landscape) ----------- */
-@media only screen and (min-width : 321px) {
+@media only screen and (min-width : 321px max-width: 600px) {
 
 		.highlight h4 {
 			margin-top:20%;
@@ -51,17 +51,18 @@ body {
 			}
 }
 
+
 .highlight h5 {
 	font-size: 1.3em;
-	padding-bottom: 5%;
+	padding-bottom: 1%;
 }
 
 .default h5 {
 	font-size: 1.3em;
-	padding-bottom: 5%;
+	padding-bottom: 1%;
 }
 .default img {
-	max-width: 95%;
+	max-width: 100%;
 	padding: 1%;
 	margin-bottom: 5%;
 
